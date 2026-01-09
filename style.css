@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Logo Section */
+.logo {
+    margin-bottom: 40px;
+}
+
+.jt {
+    font-size: 52px;
+    color: #f26b21;
+    font-family: cursive;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.logo h2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.logo p {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #ccc;
+}
+
+/* Icon Sections */
+.icon-section {
+    margin: 30px 0;
+}
+
+.curve-text {
+    font-size: 12px;
+    color: #ccc;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Circles */
+.circle {
+    width: 90px;
+    height: 90px;
+    background: #f26b21;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.circle i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.small {
+    width: 70px;
+    height: 70px;
+}
+
+.small i {
+    font-size: 28px;
+}
+
+/* Description */
+.description {
+    font-size: 14px;
+    color: #ccc;
+    margin: 40px 0 30px;
+    line-height: 1.5;
+}
+
+/* Social Icons */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle i {
+        font-size: 32px;
+    }
+}
+.icon-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.icon-link .circle {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-link .circle:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(242, 107, 33, 0.7);
+}
+.social-link {
+    text-decoration: none;
+}
+
+.social-link .circle {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-link .circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgba(242, 107, 33, 0.8);
+}
