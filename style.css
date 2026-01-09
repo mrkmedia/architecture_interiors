@@ -21,7 +21,7 @@ body {
     padding: 30px 20px;
 }
 
-/* Logo Section */
+/* Logo */
 .logo {
     margin-bottom: 40px;
 }
@@ -50,16 +50,17 @@ body {
     color: #ccc;
 }
 
-/* Icon Sections */
+/* Icon Section */
 .icon-section {
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
-.curve-text {
-    font-size: 12px;
-    color: #ccc;
+.label {
+    font-family: 'Poppins light';    font-size: 16px;
+    color: #ffffff;
     display: block;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    font-weight: 400;
 }
 
 /* Circles */
@@ -74,23 +75,47 @@ body {
     margin: auto;
 }
 
-.circle i {
-    font-size: 36px;
-    color: #fff;
-}
-
 .small {
     width: 70px;
     height: 70px;
 }
 
-.small i {
-    font-size: 28px;
+/* Font Awesome icons */
+.circle i {
+    font-size: 32px;
+    color: #fff;
+}
+
+/* Material Icons */
+.material-symbols-outlined {
+    color: #fff;
+    line-height: 1;
+}
+
+/* Location icon */
+.location-icon {
+    font-size: 44px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 44;
+}
+
+/* Website icon (thin) */
+.website-icon {
+    font-size: 46px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 100,
+        'GRAD' 0,
+        'opsz' 46;
 }
 
 /* Description */
 .description {
-    font-size: 14px;
+    font-family: 'Poppins light';
+    font-size: 18px;
     color: #ccc;
     margin: 40px 0 30px;
     line-height: 1.5;
@@ -103,6 +128,22 @@ body {
     gap: 20px;
 }
 
+/* Links & Hover */
+.icon-link,
+.social-link {
+    text-decoration: none;
+}
+
+.circle {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(242, 107, 33, 0.8);
+}
+
 /* Mobile */
 @media (max-width: 480px) {
     .circle {
@@ -110,34 +151,8 @@ body {
         height: 80px;
     }
 
-    .circle i {
-        font-size: 32px;
+    .small {
+        width: 60px;
+        height: 60px;
     }
-}
-.icon-link {
-    text-decoration: none;
-    display: inline-block;
-}
-
-.icon-link .circle {
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.icon-link .circle:hover {
-    transform: scale(1.08);
-    box-shadow: 0 0 15px rgba(242, 107, 33, 0.7);
-}
-.social-link {
-    text-decoration: none;
-}
-
-.social-link .circle {
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.social-link .circle:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 12px rgba(242, 107, 33, 0.8);
 }
