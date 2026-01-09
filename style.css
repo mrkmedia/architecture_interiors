@@ -82,7 +82,7 @@ body {
 
 /* Font Awesome icons */
 .circle i {
-    font-size: 32px;
+    font-size: 40px;
     color: #fff;
 }
 
@@ -94,7 +94,7 @@ body {
 
 /* Location icon */
 .location-icon {
-    font-size: 44px;
+    font-size: 55px;
     font-variation-settings:
         'FILL' 0,
         'wght' 400,
@@ -104,10 +104,10 @@ body {
 
 /* Website icon (thin) */
 .website-icon {
-    font-size: 46px;
+    font-size: 60px;
     font-variation-settings:
         'FILL' 0,
-        'wght' 100,
+        'wght' 50,
         'GRAD' 0,
         'opsz' 46;
 }
@@ -117,7 +117,7 @@ body {
     font-family: 'Poppins light';
     font-size: 18px;
     color: #ccc;
-    margin: 40px 0 30px;
+    margin: 40px 0 15px;
     line-height: 1.5;
 }
 
@@ -126,6 +126,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    font-size: 50px; 
 }
 
 /* Links & Hover */
@@ -155,4 +156,13 @@ body {
         width: 60px;
         height: 60px;
     }
+}
+.fa-instagram {
+    font-size: 50px;   /* 👈 change size here */
+}
+.font1  {
+    font-family: 'Poppins light';
+}
+.font2  {
+    font-family: 'arial';
 }
