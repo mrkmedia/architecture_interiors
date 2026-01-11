@@ -99,6 +99,7 @@ body {
 /* Description */
 .description {
     font-size: 16px;
+    font-family: "poppins light";
     color: #ccc;
     margin: 30px 0 20px;
     line-height: 1.5;
@@ -145,6 +146,10 @@ body {
 
 @media (max-width: 480px) {
 
+    .description {
+        font-family: "poppins light";
+    }
+
      .circle {
         width: 100px;
         height: 100px;
@@ -161,12 +166,13 @@ body {
     }
 
     .circle.small {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
     }
 
     .circle.small img.social-png {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
+    
 }
