@@ -134,9 +134,14 @@ body {
     }
 
     .website-icon {
-        font-size: 24px;
+        font-size: 2px;
         font-weight: 500; /* keep thin */
     }
+    .circle img {
+        width: 90px;
+        height: 90px;
+    }
+}
 
     .circle.small {
         width: 70px;
@@ -166,22 +171,22 @@ body {
         font-size: 24px;
     }
 
-}
-
-
-/* Location icon – white */
-.location-outline {
-    width: 90px;
+/* Location & Website PNG icon size control */
+.circle img {
+    width: 120px;     /* 👈 increase/decrease here */
     height: 120px;
+    object-fit: contain;
+    display: block;
 }
 
-
-
-
-/* Website icon – white + ultra thin */
-.website-icon {
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 80px;
+.location-png {
+    width: 80px;
+    height: 80px;
 }
+
+.website-png {
+    width: 40px;
+    height: 40px;
+}
+
 
