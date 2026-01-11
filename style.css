@@ -95,28 +95,6 @@ body {
     color: #fff;
 }
 
-/* Location icon */
-.location-icon {
-    font-size: 55px;
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48;
-}
-
-/* Website icon – MAXIMUM THIN */
-.website-icon {
-    font-size: 42px;
-    font-weight: 100;
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 100,
-        'GRAD' 0,
-        'opsz' 48;
-    color: #fff;
-}
-
 /* Description */
 .description {
     font-size: 16px;
@@ -159,13 +137,29 @@ body {
     }
 
     .circle.small {
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
     }
 
     .circle.small i {
-        font-size: 30px;
+        font-size: 50px;
     }
+
+    /* Description */
+.description {
+    font-size: 16px;
+    font-family: 'Poppins light';
+    color: #ccc;
+    margin: 30px 0 20px;
+    line-height: 1.5;
+    margin-top: 80px;
+    }
+
+    .icon-section {
+    margin: 28px 0;
+    margin-top: 5px;
+    }
+
 }
 
 
