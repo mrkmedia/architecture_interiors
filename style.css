@@ -46,6 +46,7 @@ body {
 
 .logo p {
     font-size: 12px;
+    font-family: 'Poppins light';
     margin-top: 8px;
     margin-bottom: 60px;
     color: #ccc;
@@ -134,7 +135,7 @@ body {
 
     .website-icon {
         font-size: 24px;
-        font-weight: 400; /* keep thin */
+        font-weight: 500; /* keep thin */
     }
 
     .circle.small {
@@ -180,7 +181,7 @@ body {
 /* Website icon – white + ultra thin */
 .website-icon {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 80px;
 }
 
