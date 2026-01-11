@@ -143,26 +143,31 @@ body {
 
 /* Mobile */
 @media (max-width: 480px) {
+
     .circle {
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
     }
 
-    .small {
+    .location-icon {
+        font-size: 24px;
+    }
+
+    .website-icon {
+        font-size: 24px;
+        font-weight: 400; /* keep thin */
+    }
+
+    .circle.small {
         width: 50px;
         height: 50px;
     }
 
-    .location-icon {
-        font-size: 80px;
-        color: #ffffff;
-    }
-    .website-icon {
-        font-size: 80px;
-        font-weight: 600;
-        color: #ffffff;
+    .circle.small i {
+        font-size: 30px;
     }
 }
+
 
 /* Location icon – white */
 .location-icon {
