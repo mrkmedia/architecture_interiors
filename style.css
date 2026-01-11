@@ -54,11 +54,12 @@ body {
 /* Icon Section */
 .icon-section {
     margin: 28px 0;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .label {
     font-size: 16px;
+    font-family: 'Poppins light';
     color: #fff;
     display: block;
     margin: 10px 0;
@@ -90,7 +91,7 @@ body {
 }
 
 /* Font Awesome icons */
-.circle i {
+.circle i.fa-brands {
     font-size: 40px;
     color: #fff;
 }
@@ -142,11 +143,11 @@ body {
     }
 
     .circle.small i {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     /* Description */
-.description {
+    .description {
     font-size: 16px;
     font-family: 'Poppins light';
     color: #ccc;
@@ -160,15 +161,21 @@ body {
     margin-top: 5px;
     }
 
+    .uil {
+        font-size: 24px;
+    }
+
 }
 
 
 /* Location icon – white */
-.location-icon {
-    color: #ffffff;
-    font-size: 80px;
-    
+.location-outline {
+    width: 90px;
+    height: 120px;
 }
+
+
+
 
 /* Website icon – white + ultra thin */
 .website-icon {
