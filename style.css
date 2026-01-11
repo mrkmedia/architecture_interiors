@@ -85,8 +85,8 @@ body {
 }
 
 .small {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 /* Font Awesome icons */
@@ -124,7 +124,7 @@ body {
     color: #ccc;
     margin: 30px 0 20px;
     line-height: 1.5;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
 /* Social Icons */
@@ -144,18 +144,22 @@ body {
 /* Mobile */
 @media (max-width: 480px) {
     .circle {
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 
     .small {
-        width: 90px;
-        height: 90px;
+        width: 50px;
+        height: 50px;
     }
 
-    .location-icon,
+    .location-icon {
+        font-size: 80px;
+        color: #ffffff;
+    }
     .website-icon {
-        font-size: 28px;
+        font-size: 80px;
+        font-weight: 600;
         color: #ffffff;
     }
 }
