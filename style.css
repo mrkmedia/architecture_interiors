@@ -27,7 +27,14 @@ body {
 /* Logo */
 .logo {
     margin-bottom: 32px;
+    text-align: center;
 }
+
+.logo-svg {
+    width: 180px;       /* adjust as needed */
+    height: auto;
+}
+
 
 .jt {
     font-size: 52px;
